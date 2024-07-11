@@ -4777,5 +4777,78 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 	/* Adjust z-index to be behind content but in front of the background */
 }
 
+/* Basic reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Full-height container for the intro */
+html,
+body {
+	height: 100%;
+	overflow-x: hidden;
+	font-family: Arial, sans-serif;
+}
+
+/* Intro section */
+.intro-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+
+	/* Example background color */
+}
+
+.intro-section h1 {
+	font-size: 3rem;
+}
+
+.intro-section p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.intro-section .actions {
+	list-style: none;
+}
+
+/* Button styling */
+.button {
+	display: inline-block;
+	padding: 0.75rem 1.5rem;
+	border-radius: 5px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #555;
+}
+
+/* About Me section */
+.about-me-section {
+	padding: 4rem 2rem;
+	background-color: #fff;
+	/* Example background color */
+}
+
+.about-me-section h2 {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.about-me-section p {
+	font-size: 1.25rem;
+	line-height: 1.6;
+}
+
 
 
