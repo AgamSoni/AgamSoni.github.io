@@ -4733,10 +4733,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 		}
 
 	}
-		
-/* Other existing styles */
 
-/* Override border and padding for specific sections */
+/* Post spacing*/
 
 .posts {
     border-top: none !important;
@@ -4748,6 +4746,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 	padding-bottom: 0rem;
 	/* Adjust this value as needed */
 }
+
+/*animated intro*/
 
 #animated-text {
 	font-weight: bold;
@@ -4776,6 +4776,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 	z-index: 0;
 	/* Adjust z-index to be behind content but in front of the background */
 }
+
+/*Bring intro to full page*/
 
 /* Basic reset */
 * {
@@ -4815,22 +4817,6 @@ body {
 
 .intro-section .actions {
 	list-style: none;
-}
-
-/* Button styling */
-.button {
-	display: inline-block;
-	padding: 0.75rem 1.5rem;
-	border-radius: 5px;
-	background-color: #333;
-	color: #fff;
-	text-decoration: none;
-	font-size: 1rem;
-	transition: background-color 0.3s ease;
-}
-
-.button:hover {
-	background-color: #555;
 }
 
 /* About Me section */
